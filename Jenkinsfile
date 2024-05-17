@@ -16,7 +16,7 @@ pipeline{
     
         stage("Checkout from SCM"){
             steps {
-             git branch: 'main', timeout: 60, url: 'https://github.com/Fulto71/complete-prodcution-e2e-pipeline'
+             git branch: 'main', url: 'https://github.com/Fulto71/complete-prodcution-e2e-pipeline'
             }
 
         }
